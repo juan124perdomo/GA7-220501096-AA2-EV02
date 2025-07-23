@@ -2,6 +2,8 @@
 package persistencia;
 
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import logica.Ordenes;
 
 
@@ -17,6 +19,14 @@ public class ControladoraPersistencia {
             
         
         return usuJpa.findOrdenesEntities();
+    }
+
+    public void borrarOrden(int id_eliminar) {
+        try {
+            usuJpa.destroy(id_eliminar);
+        } catch (Exception ex) {
+            Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
     
     

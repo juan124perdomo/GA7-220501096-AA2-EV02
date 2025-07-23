@@ -24,5 +24,13 @@
         <form action="SvOrdenes" method="GET">
             <button type="submit">Mostrar ordenes</button>
         </form>
+        
+        
+        <h1>Eliminar Orden</h1>
+        <p>ingrese el id de la orden</p>
+        <form action="SvEliminar" method="POST">
+            <p><label>ID</label> <input type="text" name="id_orden"> </p>
+            <button type="submit">Eliminar Orden</button>
+        </form>
     </body>
 </html>

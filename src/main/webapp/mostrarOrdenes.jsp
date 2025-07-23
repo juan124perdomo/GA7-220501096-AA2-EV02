@@ -17,7 +17,8 @@
             
         %>
         
-               <p></p><<b>Usuario N° <%=cont%> </b></b>
+               <p><b>Usuario N° <%=cont%> </b></p>
+                <p>id: <%=usu.getId()%> </p>
                 <p>Nombre: <%=usu.getNombre()%> </p>
                 <p>Tipo de orden: <%=usu.getTipo_orden()%> </p>
                 <p>Descripcion:  <%=usu.getDescripcion()%></p>

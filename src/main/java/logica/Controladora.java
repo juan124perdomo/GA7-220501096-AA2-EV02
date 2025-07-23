@@ -19,4 +19,9 @@ public class Controladora {
         return controlpersis.traerOrdenes();
     }
     
+    public void borrarOrden(int id_eliminar){
+        controlpersis.borrarOrden(id_eliminar);
+        
+    }
+    
 }
