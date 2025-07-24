@@ -55,12 +55,38 @@ input:focus, textarea:focus{
     outline: none;
     border: 2px solid #007bff;
 }
-textarea{
-    width: 100%;
-    resize: vertical;
-    min-height: 100px;
-    max-height: 200px;
-    font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+.contenedor-listado {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 15px;
 }
 
+.orden-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px  rgba(0,0,0,0.09);
+    transition: transform 0.2s;
+}
 
+.orden-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 22px rgba(0,0,0,0.2);
+}
+
+.orden-card p {
+    padding: 2px 0;
+    margin: 6px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.orden-card strong {
+    color: #222;
+}
