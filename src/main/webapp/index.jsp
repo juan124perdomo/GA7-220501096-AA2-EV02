@@ -32,5 +32,13 @@
             <p><label>ID</label> <input type="text" name="id_orden"> </p>
             <button type="submit">Eliminar Orden</button>
         </form>
+        
+        
+        <h1>Editar Orden</h1>
+        <p>ingrese el id de la orden para Editar</p>
+        <form action="SvEditar" method="GET">
+            <p><label>ID</label> <input type="text" name="id_editar"> </p>
+            <button type="submit">Editar Orden</button>
+        </form>
     </body>
 </html>

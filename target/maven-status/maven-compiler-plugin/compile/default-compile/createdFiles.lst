@@ -5,6 +5,7 @@ com\mycompany\ordenes\resources\JakartaEE8Resource.class
 Servlets\exceptions\NonexistentEntityException.class
 Servlets\SvOrdenes.class
 logica\Controladora.class
+Servlets\SvEditar.class
 persistencia\OrdenesJpaController.class
 Servlets\exceptions\IllegalOrphanException.class
 persistencia\exceptions\NonexistentEntityException.class
